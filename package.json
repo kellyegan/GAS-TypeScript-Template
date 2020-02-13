@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "setup": "clasp create --rootDir ./dist",
     "test": "jest --passWithNoTests",
     "build": "npm run test && webpack",
     "deploy": "npm run build && clasp push"
